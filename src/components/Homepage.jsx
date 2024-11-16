@@ -5,13 +5,15 @@ import Footer from "./Footer";
 import Intro from "./Intro";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Contact from "./Contacts";
 const PortfolioPage = () => {
   return (
     <div className="h-screen bg-cover bg-no-repeat bg-center overflow-y-auto">
       <Navbar />
       <Intro />
       <Skills />
-      <Projects />s
+      <Projects />
+      <Contact />
       <Footer />
     </div>
   );
