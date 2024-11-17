@@ -91,7 +91,7 @@ const Contact = () => {
         </form>
 
         <p className="text-lg text-gray-400 mt-10">
-          Find me on my social media accounts below.
+          Find me on any of my social media accounts below.
         </p>
         <div className="flex justify-center mt-8 space-x-4">
           <img

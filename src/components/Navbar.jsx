@@ -50,7 +50,7 @@ const Navbar = () => {
           duration={500}
           className="text-white cursor-pointer hover:text-green-600"
         >
-          Experience
+          Work Experience
         </Link>
       </div>
       <button

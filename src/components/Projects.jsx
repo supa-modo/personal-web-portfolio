@@ -32,19 +32,20 @@ const Projects = () => {
           <img
             src={Portfolio1}
             alt="Portfolio 1"
-            className="w-64 h-48 object-contain rounded-lg shadow-lg"
+            className="w-52 object-cover rounded-lg shadow-lg"
           />
           <img
             src={Portfolio2}
             alt="Portfolio 2"
-            className="w-64 h-48 object-contain rounded-lg shadow-lg"
+            className="w-52 object-cover rounded-lg shadow-lg"
           />
           <img
             src={Portfolio3}
             alt="Portfolio 3"
-            className="w-64 h-48 object-contain rounded-lg shadow-lg"
+            className="w-52 object-cover rounded-lg shadow-lg"
           />
         </div>
+
         <div className="font-semibold flex px-20 mt-8 items-center justify-between">
           <a
             href="https://github.com/supa-modo/meeting-attendance-and-management-app"
@@ -81,17 +82,17 @@ const Projects = () => {
           <img
             src={Msafiri1}
             alt="Msafiri 1"
-            className="w-64 h-48 object-contain rounded-lg shadow-lg"
+            className="w-52 object-cover rounded-lg shadow-lg"
           />
           <img
             src={Msafiri41}
             alt="Msafiri 4"
-            className="w-64 h-48 object-contain rounded-lg shadow-lg"
+            className="w-52 object-cover rounded-lg shadow-lg"
           />
           <img
             src={Msafiri6}
             alt="Msafiri 6"
-            className="w-64 h-48 object-contain rounded-lg shadow-lg"
+            className="w-52 object-cover rounded-lg shadow-lg"
           />
         </div>
         <div className="font-semibold flex px-20 mt-8 items-center justify-between">
@@ -128,7 +129,7 @@ const Projects = () => {
           <img
             src={eSokoHome}
             alt="Esoko Fashion Store"
-            className="w-80 h-60 object-cover rounded-lg shadow-lg"
+            className="w-[70%] rounded-lg shadow-lg"
           />
         </div>
         <div className="font-semibold flex px-20 mt-8 items-center justify-between">

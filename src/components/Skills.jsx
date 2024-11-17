@@ -14,7 +14,7 @@ const Skills = () => {
           expertise in Web Development using the MERN stack with options of SQL
           Server, PostgreSQL or Fastify. I also develop mobile applications
           through the Flutter framework & Node.js with Express on the backend
-          and buid Desktop Applications with C#. My journey in programming
+          and build Desktop Applications with C#. My journey in programming
           started with a curiosity-driven exploration of website development,
           evolving into a thrilling adventure encompassing mobile app
           development, CI/CD operations through platforms like Azure and
@@ -35,7 +35,7 @@ const Skills = () => {
             <h3 className="text-xl font-semibold text-yellow-400">
               Web Design and Development (MERN, SQL Server, PostgreSQL)
             </h3>
-            <p className="text-base font-light text-gray-400 mt-3">
+            <p className="text-base font-light text-gray-300 mt-3">
               With a keen eye for design and a mastery of web technologies, I
               bring websites to life by blending aesthetics and functionality.
               From front-end to back-end, I create captivating and optimized web
@@ -56,7 +56,7 @@ const Skills = () => {
             <h3 className="text-xl font-semibold text-yellow-400">
               Mobile App Development
             </h3>
-            <p className="text-base font-light text-gray-400 mt-3">
+            <p className="text-base font-light text-gray-300 mt-3">
               With a keen eye for design and a mastery of web technologies, I
               bring websites to life by blending aesthetics and functionality.
               From front-end to back-end, I create captivating and optimized web
@@ -77,7 +77,7 @@ const Skills = () => {
             <h3 className="text-xl font-semibold text-yellow-400">
               UI/UX Design
             </h3>
-            <p className="text-base font-light text-gray-400 mt-3">
+            <p className="text-base font-light text-gray-300 mt-3">
               Crafting intuitive and visually engaging user interfaces is my
               specialty. I focus on delivering designs that prioritize
               usability, accessibility, and creating impactful user journeys.
