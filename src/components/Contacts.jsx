@@ -48,10 +48,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_0lo1js5", //service ID
-        "template_yi36nhd", //template ID
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formRef.current,
-        "sYUP-DbfTu2b7-G-X" //Public Key
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -64,6 +64,7 @@ const Contact = () => {
         (error) => {
           console.error("Error:", error.text);
           setStatusMessage("Failed to send message. Please try again.");
+          setIsSending(false);
         }
       )
       .finally(() => setIsSending(false));
@@ -132,32 +133,13 @@ const Contact = () => {
           {formErrors.message && (
             <p className="text-red-500 text-sm">{formErrors.message}</p>
           )}
-          {/* <button
-            type="submit"
-            className="w-full font-semibold max-w-2xl p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
-          >
-            Submit
-          </button> */}
+
           <div className="text-center items-center">
             <LoadingButton
               isLoading={isSending}
               onClick={onsubmit}
               className="w-full font-semibold max-w-2xl p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
             />
-            {/* <button
-              type="submit"
-              className="w-full font-semibold max-w-2xl p-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300"
-              disabled={isSending}
-            >
-              {isSending ? (
-                <div className="flex items-center space-x-2">
-                  <div className="w-6 h-6 border-4 border-t-4 border-white rounded-full animate-spinCustom"></div>
-                  <span>Sending message...</span>
-                </div>
-              ) : (
-                "Submit"
-              )}
-            </button> */}
           </div>
         </form>
         {statusMessage && (

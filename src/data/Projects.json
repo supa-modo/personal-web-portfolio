@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Meeting Attendance and Management Website",
+    "description": "A React Native application for managing meetings.",
+    "images": {
+      "desktop": ["../assets/portfolio-1.png", "../assets/portfolio-2.png"],
+      "smartphone": [
+        "../assets/msafiriProject/msafiri1.jpg",
+        "../assets/msafiriProject/msafiri41.jpg",
+        "../assets/msafiriProject/msafiri6.jpg"
+      ]
+    },
+    "githubLink": "https://github.com/supa-modo/meeting-attendance-and-management-app"
+  },
+  {
+    "id": 2,
+    "title": "Esoko Fashion Store",
+    "description": "A React-based e-commerce platform.",
+    "images": {
+      "desktop": ["../assets/eSoko/eSoko.png"],
+      "smartphone": []
+    },
+    "githubLink": "https://github.com/supa-modo/meeting-attendance-and-management-app"
+  }
+]

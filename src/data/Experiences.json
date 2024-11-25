@@ -1,0 +1,20 @@
+[
+  {
+    "company": "Tech Innovations Inc.",
+    "role": "Frontend Developer",
+    "timeline": "Jan 2022 - Present",
+    "summary": "Designed and implemented user-centric web interfaces with React.js. Collaborated with a team to integrate APIs and optimize performance. Contributed to the development of a knowledge management system. Automated testing processes, reducing QA time."
+  },
+  {
+    "company": "African Court on Human and People's Rights",
+    "role": "Software Engineer Intern",
+    "timeline": "September 2024 - Dec 2024",
+    "summary": "Contributed to the development of a knowledge management system for document management. Automated testing processes, reducing QA time. Provided technical and troubleshooting support to employees. Assisted in deploying a secure intranet system for communication"
+  },
+  {
+    "company": "East African Community Secretariat",
+    "role": "IT Support Intern",
+    "timeline": "July 2023 - August 2024",
+    "summary": "Provided technical support to employees. Assisted in deploying a secure intranet system for communication. Collaborated with a team to integrate APIs and optimize performance."
+  }
+]
