@@ -35,7 +35,7 @@ const Intro = () => {
 
           {/* Intro Description */}
           <p className="mt-7 text-lg max-w-[70%] font-light text-white leading-6">
-            I am a skilled developer with experience in creating visually
+            I am a skilled Full Stack Developer with experience in creating visually
             appealing and user-friendly software and applications. I combine
             creativity and technical skills to bring ideas to life. <br />{" "}
             Explore my portfolio to witness the synergy of my skills in action.
