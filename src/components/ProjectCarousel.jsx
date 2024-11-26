@@ -1,34 +1,37 @@
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper";
+import Slider from "react-slick";
 
-import "swiper/swiper-bundle.min.css";
+const ProjectCarousel = ({ images, type }) => {
+  // Settings for the carousel
+  const settings = {
+    infinite: true,
+    speed: 500,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    slidesToShow: type === "smartphone" ? 3 : 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: true,
+  };
 
-const Carousel = ({ images, displayCount = 1 }) => {
   return (
-    <Swiper
-      slidesPerView={displayCount}
-      spaceBetween={30}
-      loop={true}
-      autoplay={{
-        delay: 2500, // 2.5 seconds
-        disableOnInteraction: false,
-      }}
-      pagination={{ clickable: true }}
-      modules={[Autoplay, Pagination]}
-      className="w-full"
-    >
-      {images.map((img, index) => (
-        <SwiperSlide key={index} className="flex justify-center">
-          <img
-            src={img}
-            alt={`Slide ${index}`}
-            className="w-full max-w-xs rounded-lg shadow-lg object-cover"
-          />
-        </SwiperSlide>
-      ))}
-    </Swiper>
+    <div className="mx-auto carousel-container w-[75%]">
+      <Slider {...settings}>
+        {images.map((img, index) => (
+          <div key={index} className="">
+            <img
+              src={img}
+              alt={`Project ${index + 1}`}
+              className="w-[80%] h-auto object-cover rounded-lg shadow-lg"
+            />
+          </div>
+        ))}
+      </Slider>
+    </div>
   );
 };
 
-export default Carousel;
+export default ProjectCarousel;

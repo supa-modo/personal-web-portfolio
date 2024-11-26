@@ -6,10 +6,9 @@ import Navbar from "./Navbar";
 const Intro = () => {
   return (
     <div className="">
-      
       <section
         id="intro"
-        className="relative h-[calc(100vh-8rem)] max-w-6xl mx-auto overflow-hidden"
+        className="relative h-[calc(100vh-8rem)] max-w-screen-xl mx-auto overflow-hidden"
         style={{
           backgroundImage: `url(${bg})`,
           backgroundRepeat: "no-repeat",
@@ -35,13 +34,13 @@ const Intro = () => {
 
           {/* Intro Description */}
           <p className="mt-7 text-lg max-w-[70%] font-light text-white leading-6">
-            I am a skilled Full Stack Developer with experience in creating visually
-            appealing and user-friendly software and applications. I combine
-            creativity and technical skills to bring ideas to life. <br />{" "}
-            Explore my portfolio to witness the synergy of my skills in action.
-            Whether you're seeking a mobile app, a web solution, or a
-            combination of both, I am excited about the opportunity to <br />{" "}
-            bring your vision to life.
+            I am a skilled Full Stack Developer with experience in creating
+            visually appealing and user-friendly software and applications. I
+            combine creativity and technical skills to bring ideas to life.{" "}
+            <br /> Explore my portfolio to witness the synergy of my skills in
+            action. Whether you're seeking a mobile app, a web solution, or a
+            combination of both, I am excited about the opportunity to bring
+            your vision to life.
           </p>
 
           {/* Hire Me Button */}

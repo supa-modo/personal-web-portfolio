@@ -4,7 +4,7 @@ import experiences from "../data/Experiences.json";
 const WorkExperience = () => {
   return (
     <section id="work-experience" className="my-10 py-20 ">
-      <div className="max-w-screen-lg mx-auto px-4">
+      <div className="max-w-screen-xl mx-auto px-4">
         <h2 className="text-4xl font-semibold text-green-600 text-center mb-8">
           Work Experience
         </h2>
@@ -12,7 +12,7 @@ const WorkExperience = () => {
           {experiences.map((exp, index) => (
             <div
               key={index}
-              className="flex relative   px-4 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
+              className="flex relative   px-4 rounded-lg shadow-lg hover:shadow-xl transition duration-300 bg-gray-900 bg-opacity-50 py-3"
             >
               {/* Green Line */}
               <div className="absolute left-0 top-0 h-full w-2 bg-green-600"></div>

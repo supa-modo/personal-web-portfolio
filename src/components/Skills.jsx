@@ -6,7 +6,7 @@ import AppDesign from "../assets/app-design.png";
 const Skills = () => {
   return (
     <section id="skills" className="text-white py-16">
-      <div className="max-w-6xl mx-auto px-6 text-center">
+      <div className="max-w-screen-xl mx-auto px-6 text-center">
         {/* Section Title */}
         <h2 className="text-4xl font-extrabold text-yellowgreen">What I Do</h2>
         <p className="text-lg font-light mt-4 text-gray-300">
